@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy":"vite build --emptyOutDir && gh-pages -d dist"
   },
   "devDependencies": {
     "stylelint-config-standard": "^22.0.0",
